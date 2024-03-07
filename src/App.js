@@ -1,10 +1,11 @@
-
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      Welcome to react
-    </div>
+  return React.createElement(
+    'div',
+    {},
+    React.createElement('h1',{},"Hey !! Welcome to reactJS"),
+    React.createElement('button',{},"Click me")
   );
 }
 
